@@ -1,0 +1,183 @@
+*{
+    font-family: Arial;
+}
+body{
+    background-color: rgb(36, 80, 118);
+}
+
+.logo{
+    width: 70%;
+    display: inline-block;
+}
+
+.logo img{
+    width: 50%;
+}
+
+h4{
+    color: white;
+    vertical-align: top;
+    display: inline-block;
+    position: absolute;
+    right: 20%;
+    margin-top:5px;
+}
+
+.normal{
+    position: absolute;
+    right: 0%;
+    margin-top: 5px;
+    margin-right: 200px;
+    color:rgb(255,213,0);
+    text-decoration-line: underline;
+}
+
+.large{
+    position: absolute;
+    right: 7%;
+    margin:50px;
+    margin-top:5px;
+    color: rgb(255,213,0);
+    text-decoration-line: underline;
+}
+
+.busqueda{
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgb(68, 68, 68);
+    height: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.busqueda input{
+    text-align: center;
+    height: 30px;
+}
+
+.busqueda button{
+    height: 30px;
+    background-color: rgb(36, 80, 118);
+    color: white;
+    border-radius: 5px;
+}
+
+.menu{
+    background-color: rgb(67, 124, 173);
+    border-radius: 10px;
+    width: 80%;
+    height: 59px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu h2{
+    display: inline-block;
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.apartado_izquierdo{
+    display: inline-block;
+    width: 35%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.apartado_derecho{
+    display: inline-block;
+    width: 55%;
+}
+
+.contenido{
+    margin: auto;
+}
+
+p.historia{
+    color: white;
+}
+
+.historia{
+    text-align: center;
+}
+
+p.def{
+    color:rgb(255,213,0);
+    font-size:20px;
+    font-style:italic;
+    line-height : 35px;
+}
+
+p.zen{
+    color:white;
+    font-size:20px;
+}
+
+li{
+    color: white;
+    font-size: 20px;   
+}
+
+h3{
+    color: white;
+}
+
+h2,h3{
+    font-family:sans-serif;
+    font-weight: lighter;
+
+}
+
+.contenido_abajo{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.bi,.bd{
+    width: 35%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bd{
+    vertical-align: top;
+
+}
+
+.bd ul li,.bi ul li{
+    color: rgb(129, 176, 217);
+    list-style-type: square;
+}
+
+.footer{
+    text-align: center;
+    background-image: linear-gradient(to bottom,#245177 , #3274ab);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer h3{
+    display: inline-block;
+    margin-left: 10px;
+    color: rgb(129, 176, 217);
+    margin-right: 10px;    
+}
+
+.footer h6{
+    color: rgb(129, 176, 217);
+}
+
+.azul{
+    color:rgb(129, 176, 217);
+}
+
+
